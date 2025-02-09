@@ -103,5 +103,3 @@ bindkey '^H' backward-kill-word
 # Shell integrations
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
-
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
